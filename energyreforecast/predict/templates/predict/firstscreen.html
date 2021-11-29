@@ -1,0 +1,44 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>Energy Re-Forecast</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="icon" href="{% static 'image/icon_1.png' %}" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <br>
+    <br><br>
+    <br><br>
+    <br>
+    <main>
+        <div class="px-4 py-5 my-5 text-center col-6 mx-auto">
+            <img src="{% static 'image/2.png' %}" width="400"><br><br>
+            <div class="col-6 mx-auto">
+                <p class="lead mb-4">Energy Consumption Re-Forecast</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"><br>
+                    <a href="/select_zone" type="button" class="button">Start</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
